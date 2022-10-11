@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+   var arr=[1,2,4,3,7,5,6];
+   for(var i=0;i<arr.length-1;i++){
+     for(var j=i;j<arr.length-1-i;j++){
+      var tem;
+       if(arr[j]>arr[j+1]){
+         tem=arr[j];
+         arr[j]=arr[j+1];
+         arr[j+1]=tem;
+       }
+     }
+   }
+  </script>
+</body>
+</html>

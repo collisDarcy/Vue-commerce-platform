@@ -1,0 +1,51 @@
+{
+  "name": "demo-vue2.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.6",
+    "lodash": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.14",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.5.2",
+    "vue-table-with-tree-grid": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@escook/express-joi": "^1.1.1",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "axios": "^0.26.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-session": "^1.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "mysql": "^2.18.1",
+    "prettier": "^2.4.1",
+    "vue-axios": "^3.4.1",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
